@@ -60,13 +60,20 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
+            <img class="android-logo-image gtm-element-event"
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="android-logo"
+                src="images/android-logo.png">
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
           <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
+              <i class="material-icons gtm-element-event"
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="search">search</i>
             </label>
             <div class="mdl-textfield__expandable-holder">
               <input class="mdl-textfield__input" type="text" id="search-field">
@@ -75,26 +82,66 @@
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Phones</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tablets</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Wear</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">TV</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Auto</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">One</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event"
+                href=""
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="phones">Phones</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event" 
+                href=""
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="tablets">Tablets</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event"
+                href=""
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="wear">Wear</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event"
+                href=""
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="tv">TV</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event"
+                href=""                
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="auto">Auto</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event" 
+                href=""
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="one">One</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase gtm-link-event" 
+                href=""
+                data-gtm-event-category="sandbox:menu"
+                data-gtm-event-action="clique:menu-superior"
+                data-gtm-event-label="play">Play</a>
             </nav>
           </div>
           <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
+            <img class="android-logo-image gtm-element-event" src="images/android-logo.png">
           </span>
           <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
             <i class="material-icons">more_vert</i>
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-            <li class="mdl-menu__item">5.0 Lollipop</li>
-            <li class="mdl-menu__item">4.4 KitKat</li>
-            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
-            <li class="mdl-menu__item">Android History</li>
+            <li class="mdl-menu__item gtm-element-event"
+            data-gtm-event-category="sandbox:menu"
+            data-gtm-event-action="clique:menu-superior"
+            data-gtm-event-label="50-lollipop">5.0 Lollipop</li>
+            <li class="mdl-menu__item gtm-element-event"
+            data-gtm-event-category="sandbox:menu"
+            data-gtm-event-action="clique:menu-superior"
+            data-gtm-event-label="44-kitkat">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item gtm-element-event"
+            data-gtm-event-category="sandbox:menu"
+            data-gtm-event-action="clique:menu-superior"
+            data-gtm-event-label="43-jelly-bean">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item gtm-element-event"
+            data-gtm-event-category="sandbox:menu"
+            data-gtm-event-action="clique:menu-superior"
+            data-gtm-event-label="android-history">Android History</li>
           </ul>
         </div>
       </div>
@@ -104,29 +151,109 @@
           <img class="android-logo-image" src="images/android-logo-white.png">
         </span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Phones</a>
-          <a class="mdl-navigation__link" href="">Tablets</a>
-          <a class="mdl-navigation__link" href="">Wear</a>
-          <a class="mdl-navigation__link" href="">TV</a>
-          <a class="mdl-navigation__link" href="">Auto</a>
-          <a class="mdl-navigation__link" href="">One</a>
-          <a class="mdl-navigation__link" href="">Play</a>
+          <a href=""
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="phones">Phones</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="tablets">Tablets</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="wear">Wear</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="tv">TV</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="auto">Auto</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="one">One</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="play">Play</a>
           <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Versions</span>
-          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
-          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
-          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
-          <a class="mdl-navigation__link" href="">Android history</a>
+          <span href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="versions">Versions</span>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="lollipop-50">Lollipop 5.0</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="kitkat-44">KitKat 4.4</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="jelly-bean-43">Jelly Bean 4.3</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="android-history">Android history</a>
           <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Resources</span>
-          <a class="mdl-navigation__link" href="">Official blog</a>
-          <a class="mdl-navigation__link" href="">Android on Google+</a>
-          <a class="mdl-navigation__link" href="">Android on Twitter</a>
+          <span href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="resources">Resources</span>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="official-blog">Official blog</a>
+          <a href=""
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="android-on-google">Android on Google+</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="android-on-twitter" >Android on Twitter</a>
           <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">For developers</span>
-          <a class="mdl-navigation__link" href="">App developer resources</a>
-          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
-          <a class="mdl-navigation__link" href="">Android SDK</a>
+          <span href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="for-developers">For developers</span>
+          <a href=""
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="app-developer-resources">App developer resources</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="android-open-source-project">Android Open Source Project</a>
+          <a href="" 
+          class="mdl-navigation__link gtm-link-event"
+          data-gtm-event-category="sandbox:menu"
+          data-gtm-event-action="clique:menu-hamburguer"
+          data-gtm-event-label="android-sdk">Android SDK</a>
         </nav>
       </div>
 
@@ -141,7 +268,10 @@
 
           <a href="#screens">
             <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">expand_more</i>
+              <i class="material-icons gtm-element-event"
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:botao-direcionamento"
+              data-gtm-event-label="seta-page-down">expand_more</i>
             </button>
           </a>
         </div>
@@ -150,35 +280,69 @@
           <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
           <div class="android-screens">
             <div class="android-wear android-screen">
-              <a class="android-image-link" href="">
+              <a class="android-image-link gtm-link-event" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-img"
+              data-gtm-event-label="android-wear">
                 <img class="android-screen-image" src="images/wear-silver-on.png">
                 <img class="android-screen-image" src="images/wear-black-on.png">
               </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:product-description"
+              data-gtm-event-label="android-wear">Android Wear</a>
             </div>
             <div class="android-phone android-screen">
-              <a class="android-image-link" href="">
+              <a class="android-image-link gtm-link-event" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-img"
+              data-gtm-event-label="phones">
                 <img class="android-screen-image" src="images/nexus6-on.jpg">
               </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase gtm-link-event" href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-description"
+              data-gtm-event-label="phones">Phones</a>
             </div>
             <div class="android-tablet android-screen">
-              <a class="android-image-link" href="">
+              <a class="android-image-link gtm-link-event" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-img"
+              data-gtm-event-label="tablets">
                 <img class="android-screen-image" src="images/nexus9-on.jpg">
               </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase gtm-link-event" href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-description"
+              data-gtm-event-label="tablets">Tablets</a>
             </div>
             <div class="android-tv android-screen">
-              <a class="android-image-link" href="">
+              <a class="android-image-link gtm-link-event" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-img"
+              data-gtm-event-label="android-tv">
                 <img class="android-screen-image" src="images/tv-on.jpg">
               </a>
               <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
             </div>
             <div class="android-auto android-screen">
-              <a class="android-image-link" href="">
+              <a class="android-image-link gtm-link-event" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-img"
+              data-gtm-event-label="android-auto">
                 <img class="android-screen-image" src="images/auto-on.jpg">
               </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left gtm-link-event" 
+              href=""
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:products-description"
+              data-gtm-event-label="android-auto">Coming Soon: Android Auto</a>
             </div>
           </div>
         </div>
@@ -191,7 +355,11 @@
                 Calendar and YouTube.
               </p>
               <p>
-                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="">
+                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link gtm-element-event" 
+                href=""
+                data-gtm-event-category="sandbox:home"
+                data-gtm-event-action="clique:link"
+                data-gtm-event-label="the-best-of-google-built-in:see-whats-new-in-the-play-store">
                   See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
                 </a>
               </p>
@@ -204,7 +372,10 @@
             <p class="mdl-typography--font-light">
               Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
               <br>
-              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
+              <a href="" class="android-link mdl-typography--font-light gtm-link-event"
+              data-gtm-event-category="sandbox:home"
+              data-gtm-event-action="clique:link"
+              data-gtm-event-label="customised-by-you:customise-your-phone">Customise your phone</a>
             </p>
           </div>
           <div class="android-customized-section-image"></div>
@@ -214,16 +385,27 @@
           <div class="android-card-container mdl-grid">
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-1.png">
+                <img class="gtm-element-event" 
+                data-gtm-event-category="sandbox:home"
+                data-gtm-event-action="clique:link"
+                data-gtm-event-label="get-going-on-android:make-the-switch"
+                src="images/more-from-1.png">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get going on Android</h4>
+                 <h4 class="mdl-card__title-text gtm-element-event"
+                  data-gtm-event-category="sandbox:home"
+                  data-gtm-event-action="clique:link"
+                  data-gtm-event-label="get-going-on-android:make-the-switch">Get going on Android</h4>
               </div>
               <div class="mdl-card__supporting-text">
                 <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase gtm-link-event" 
+                 href=""
+                  data-gtm-event-category="sandbox:home"
+                  data-gtm-event-action="clique:link"
+                  data-gtm-event-label="get-going-on-android:make-the-switch">
                    Make the switch
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -232,7 +414,11 @@
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-4.png">
+                <img class="gtm-element-event" 
+                data-gtm-event-category="sandbox:home"
+                data-gtm-event-action="clique:link"
+                data-gtm-event-label="create-your-own-android-character:androidify.com"
+                src="images/more-from-4.png">
               </div>
               <div class="mdl-card__title">
                  <h4 class="mdl-card__title-text">Create your own Android character</h4>
@@ -241,7 +427,11 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase gtm-link-event" 
+                 href=""
+                  data-gtm-event-category="sandbox:home"
+                  data-gtm-event-action="clique:link"
+                  data-gtm-event-label="create-your-own-android-character:androidify.com">
                    androidify.com
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -250,7 +440,11 @@
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-2.png">
+                <img class="gtm-element-event" 
+                data-gtm-event-category="sandbox:home"
+                data-gtm-event-action="clique:link"
+                data-gtm-event-label="get-clean-customisable-home-screen:download-now"
+                src="images/more-from-2.png">
               </div>
               <div class="mdl-card__title">
                  <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
@@ -259,7 +453,11 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase gtm-link-event" 
+                  href=""
+                  data-gtm-event-category="sandbox:home"
+                  data-gtm-event-action="clique:link"
+                  data-gtm-event-label="get-clean-customisable-home-screen:download-now">
                    Download now
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -268,7 +466,11 @@
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-3.png">
+                <img class="gtm-element-event" 
+                data-gtm-event-category="sandbox:home"
+                data-gtm-event-action="clique:link"
+                data-gtm-event-label="millions-choose-from:find-apps"
+                src="images/more-from-3.png">
               </div>
               <div class="mdl-card__title">
                  <h4 class="mdl-card__title-text">Millions to choose from</h4>
@@ -277,7 +479,11 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase gtm-link-event" 
+                  href=""
+                  data-gtm-event-category="sandbox:home"
+                  data-gtm-event-action="clique:link"
+                  data-gtm-event-label="millions-choose-from:find-apps">
                    Find apps
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -289,20 +495,36 @@
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--left-section">
-              <a href="https://www.linkedin.com">
-                <img class="mdl-mega-footer--social-btn" src="images/linkedin-perfil.png" alt="">
+              <a href="https://www.linkedin.com" class="gtm-link-event">
+                <img class="mdl-mega-footer--social-btn" 
+                data-gtm-event-category="sandbox:footer"
+                data-gtm-event-action="clique:rede-social"
+                data-gtm-event-label="linkedin"
+                src="images/linkedin-perfil.png" alt="">
               </a>
               &nbsp;
-              <a href="https://www.facebook.com">
-                <img class="mdl-mega-footer--social-btn" src="images/facebook.png" alt="">
+              <a href="https://www.facebook.com" class="gtm-link-event">
+                <img class="mdl-mega-footer--social-btn" 
+                data-gtm-event-category="sandbox:footer"
+                data-gtm-event-action="clique:rede-social"
+                data-gtm-event-label="facebook"
+                src="images/facebook.png" alt="">
               </a>
               &nbsp;
-              <a href="https://www.instagram.com">
-                <img class="mdl-mega-footer--social-btn" src="images/instagram.png" alt="">
+              <a href="https://www.instagram.com" class="gtm-link-event">
+                <img class="mdl-mega-footer--social-btn" 
+                data-gtm-event-category="sandbox:footer"
+                data-gtm-event-action="clique:rede-social"
+                data-gtm-event-label="instagram"
+                src="images/instagram.png" alt="">
               </a>
             </div>
             <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="#top">
+              <a class="mdl-typography--font-light gtm-link-event" 
+              href="#top"
+              data-gtm-event-category="sandbox:footer"
+              data-gtm-event-action="clique:botao-direcionamento"
+              data-gtm-event-label="page-up">
                 Back to Top
                 <i class="material-icons">expand_less</i>
               </a>
@@ -320,7 +542,10 @@
               <i class="material-icons">arrow_drop_up</i>
             </a>
             <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-              <li class="mdl-menu__item">5.0 Lollipop</li>
+              <li class="mdl-menu__item gtm-element-event"
+              data-gtm-event-category="sandbox:home"
+                data-gtm-event-action="clique:rede-social"
+                data-gtm-event-label="linkedin">5.0 Lollipop</li>
               <li class="mdl-menu__item">4.4 KitKat</li>
               <li class="mdl-menu__item">4.3 Jelly Bean</li>
               <li class="mdl-menu__item">Android History</li>
