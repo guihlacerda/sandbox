@@ -19,7 +19,8 @@
 <html lang="en">
   <head>
     <script>
-      dataLayer.push = ({
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
         'event': 'productImpression',
         'eventCategory': 'noticias',
         'eventAction': 'click-link',
